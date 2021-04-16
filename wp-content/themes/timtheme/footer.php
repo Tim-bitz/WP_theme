@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8" />
-	<title>Labb 1</title>
-</head>
-<body>
-
     <?php
     wp_footer();
     ?>
