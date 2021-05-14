@@ -21,8 +21,11 @@ add_theme_support('widgets');
 
 
 //registrera meny
- function register_menus() {
-     register_nav_menu('header-menu', 'headerMenu');
+ function register_menu() {
+    register_nav_menu('headerMenu', 'Header Menu');
+    register_nav_menu('sideMenu', 'Side Menu');
  }
+
+ add_action('after_setup_theme', 'register_menu');
 
 ?>
