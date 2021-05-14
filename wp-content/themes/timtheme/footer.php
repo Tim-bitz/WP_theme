@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8" />
-	<title>Labb 1</title>
-</head>
-<body>
-
-    <?php
-    wp_footer();
-    ?>
 
     <footer id="footer">
 			<div class="container">
@@ -57,6 +46,9 @@
 		</footer>
 
 		<script src=<?php echo get_template_directory_uri().'/js/script.js'?>></script>
+    <?php
+    wp_footer();
+    ?>
 
 </body>
 </html>
